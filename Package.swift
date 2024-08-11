@@ -1,9 +1,9 @@
-// swift-tools-version:5.5
+// swift-tools-version:5.3
 import PackageDescription
 
 let package = Package(
     name: "ProtectKit",
-    platforms: [.iOS(.v15)],
+    platforms: [.iOS(.v14)],
     products: [
         .library(
             name: "ProtectKit",
