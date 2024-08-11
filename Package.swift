@@ -1,4 +1,6 @@
+// swift-tools-version:5.3
 import PackageDescription
+
 let package = Package(
     name: "ProtectKit",
     platforms: [
@@ -7,17 +9,14 @@ let package = Package(
     products: [
         .library(
             name: "ProtectKit",
-            targets: ["ProtectKit"]
-        ),
+            targets: ["ProtectKit"]),
     ],
     targets: [
         .target(
             name: "ProtectKit",
-            dependencies: []
-        ),
+            dependencies: []),
         .testTarget(
             name: "ProtectKitTests",
-            dependencies: ["ProtectKit"]
-        ),
+            dependencies: ["ProtectKit"]),
     ]
 )
